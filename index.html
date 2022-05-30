@@ -429,8 +429,8 @@
                     <textarea class="form-comments" name="comments" id="comments" rows="10" placeholder="Введите текст"></textarea>
                 </div>
                 <label class="form-checkbox">
-                    <input class="checkbox-input" type="checkbox">
-                    <svg class="form-checkbox-input" width="16" height="15">
+                    <input class="checkbox-input" id="user-checkbox" type="checkbox" tabindex="-1">
+                    <svg class="form-checkbox-input" width="16" height="15" tabindex="0" aria-labelledby="user-checkbox" role="checkbox">
                         <use href="./images/icons.svg#icon-checkbox"></use>
                     </svg>
                     <span>Соглашаюсь с рассылкой и принимаю&nbsp; <a class="form-checkbox-contract" href="#">Условия договора</a></span>
